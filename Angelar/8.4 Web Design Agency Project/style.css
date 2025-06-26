@@ -1,0 +1,46 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+.main {
+  flex: 1;
+}
+.span_creative{
+  color: midnightblue;
+}
+
+.main_container{
+  display: flex;
+  gap: 10px;
+}
+
+.card{
+  display: flex;
+  gap: 10px;
+}
+img{
+  width: 200px;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+footer {
+  text-align: center;
+  color: midnightblue;
+}
+
+@media (max-width: 900px) {
+  .main_container{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+  
+}
+
