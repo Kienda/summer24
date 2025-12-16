@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { CgNotes } from "react-icons/cg";
 import NoteForm from "./components/NoteForm";
+import NoteList from "./components/NoteList";
+
 const App = () => {
   const [notes, setNotes] = useState([]);
   return (
@@ -10,6 +12,7 @@ const App = () => {
         <span>Notes App</span>
       </h2>
       <NoteForm notes={notes} setNotes={setNotes} />
+      <NoteList notes={notes} />
     </div>
   );
 };
